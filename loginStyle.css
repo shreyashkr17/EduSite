@@ -5,21 +5,23 @@
 }
 
 body {
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url("images/extra/backwallpaper.jpg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1473800447596-01729482b8eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
 	background-size: cover;
 	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
 }
+
 .logo {
 	display: flex;
 	justify-content: center;
 }
+
 .logo img {
 	width: 100px;
 }
-.form-box
-{
+
+.form-box {
 	width: 380px;
 	height: 500px;
 	position: relative;
@@ -28,20 +30,18 @@ body {
 	padding: 5px;
 	border-radius: 5px;
 	overflow: hidden;
-	box-shadow: 0px 0px 100px rgba(0,0,0,0.4);
+	box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
 }
 
-.button-box
-{
+.button-box {
 	width: 220px;
 	margin: 35px auto;
 	position: relative;
-	box-shadow: 0 0 20px 9px rgba(0,0,0,.1);
+	box-shadow: 0 0 20px 9px rgba(0, 0, 0, .1);
 	border-radius: 30px;
 }
 
-.toggle-btn
-{
+.toggle-btn {
 	padding: 10px 30px;
 	cursor: pointer;
 	background: transparent;
@@ -50,32 +50,34 @@ body {
 	outline: none;
 }
 
-#btn
-{
+#btn {
 	top: 0;
 	left: 0;
 	position: absolute;
 	width: 110px;
 	height: 100%;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #6716ea, #dc3954);
 	border-radius: 30px;
 	transition: 0.5s;
 }
-.social-icons
-{
+
+.social-icons {
 	margin: 30px auto;
 	text-align: center;
 }
-.social-icons img
-{
+
+.social-icons img {
 	width: 30px;
 	margin: 0 7px;
 	cursor: pointer;
 	opacity: 0.85;
 }
 
-.input-group
-{
+.social-icons img:hover {
+	transform: translate(0, -10%);
+}
+
+.input-group {
 	top: 180px;
 	position: absolute;
 	width: 280px;
@@ -83,95 +85,109 @@ body {
 	font-size: 13px;
 	color: #010101;
 }
+
 .inp {
-	border-bottom: 1px solid rgba(0,0,0,0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 	justify-content: center;
 }
-.inp img{
+
+.inp img {
 	width: 20px;
 	padding-right: 10px;
 }
-.input-field
-{
+
+.input-field {
 	width: 100%;
 	padding: 10px 0;
 	margin: 5px 0;
 	border-left: 0;
 	border-right: 0;
 	border-top: 0;
-	border-bottom: 1px solid rgba(0,0,0,0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 	outline: none;
 	background: transparent;
-	color: rgba(0,0,0);
+	color: rgba(0, 0, 0);
 }
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-	color: rgba(0,0,0,0.7);
-	/*opacity: 1;  Firefox */
+
+::placeholder {
+	color: rgba(0, 0, 0, 0.7);
+
 }
+
 #register .input-field {
-	color: rgba(0,0,0,0.8);
+	color: rgba(0, 0, 0, 0.8);
 }
-.submit-btn
-{
+
+.submit-btn {
 	width: 85%;
 	padding: 10px 30px;
 	cursor: pointer;
 	display: block;
 	margin: auto;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background: linear-gradient(to right, #6716ea, #dc3954);
 	color: #fff;
 	border: 0;
 	outline: none;
 	border-radius: 30px;
+	font-size: 20px
 }
 
 .reg-btn {
-	background: lightgray;
+	background: grey;
 }
-.check-box
-{
+
+.check-box {
 	cursor: pointer;
 	margin: 30px 10px 30px 0;
+
+}
+
+.remember_pwd {
+	font-size: 15px;
+	font-weight: 600;
 }
 
 .instead {
 	margin-top: 10px;
 }
+
 .instead h3 {
-    overflow: hidden;
-    text-align: center;
-    color: rgba(0,0,0,0.6);
+	overflow: hidden;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.6);
 }
+
 .instead h3:before,
 .instead h3:after {
-    background-color: rgba(0,0,0,0.5);
-    content: "";
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 50%;
+	background-color: rgba(0, 0, 0, 0.5);
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
 }
+
 .instead h3:before {
-    right: 0.5em;
-    margin-left: -50%;
+	right: 0.5em;
+	margin-left: -50%;
 }
+
 .instead h3:after {
-    left: 0.5em;
-    margin-right: -50%;
+	left: 0.5em;
+	margin-right: -50%;
 }
-span
-{
-	color: rgba(0,0,0,0.8);
+
+span {
+	color: rgba(0, 0, 0, 0.8);
 	font-size: 12px;
 }
 
-#login
-{
+#login {
 	left: 50px;
 }
-#register
-{
+
+#register {
 	left: 450px;
 }
 
@@ -194,13 +210,16 @@ span
 	/*border-radius: 10px;*/
 	background: #fff3;
 }
+
 .connect:hover {
 	background: #fff8;
 }
+
 .connect img {
 	padding: 5px;
 	width: 25px;
 }
+
 .connect span {
 	padding: 10px;
 	font-size: 15px;
