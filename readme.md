@@ -28,7 +28,7 @@ Show some ❤️ by starring⭐ this awesome Repository!
 
 On Clicking LogIn or register, It will redirect to Google SignIn page .
 
-# Our GithubId:
+# Our Github Id:
 
 --> Anmol Raj Soni: https://github.com/anmolrajsoni15
 
